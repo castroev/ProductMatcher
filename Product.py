@@ -1,9 +1,10 @@
 class Product:
-	product_name = "UNK_NAME"
-	manufacturer = "UNK_MAN"
-	family = "UNK_FAMILY"
-	model = "UNK_MODEL"
-	announced_date = "UNK_DATE"
+	null_set = ["UNK_NAME", "UNK_MAN", "UNK_FAMILY", "UNK_MODEL","UNK_DATE"]
+	product_name = null_set[0]
+	manufacturer = null_set[1]
+	family = null_set[2]
+	model = null_set[3]
+	announced_date = [4]
 	
 
 	def toString(self):
